@@ -1,0 +1,58 @@
+.flex{
+  display:flex;
+  justify-content:space-between;
+  width: 1000px;
+    height: 60px;
+}
+
+.header_left{
+    color: blue;
+      font-size: 14px;
+        font-weight: bold;}
+
+.header_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_menu{
+    color: black;
+    font-size: 14px;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .main{
+    width: 1000px;
+    margin-top: 10px;
+  }
+
+.relative{
+  display: flex;
+    justify-content: flex-end;
+    position: reactive;
+}
+
+.relative img {
+
+  width: 60%;
+  z-index: 10;
+}
+
+.absolute {
+  position: absolute;
+  top: 40ex;
+  left:0px;
+}
+
+.title{
+font-size: 40px;
+margin-bottom: 0ex;
+}
+
+.bluebox{
+  background-color: blue;
+  width :850px;
+  height: 100px;
+  z-index: 0;
+}
